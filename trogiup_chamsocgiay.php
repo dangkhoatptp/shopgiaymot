@@ -6,7 +6,7 @@
     mysqli_set_charset($conn, "UTF8");
 ?>
 <!DOCTYPE html>
-    <html lang="vi">
+    <html lang="en">
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
