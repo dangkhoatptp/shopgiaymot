@@ -3,11 +3,11 @@
     ob_start();
 
     $conn = mysqli_connect("sql310.byethost7.com", "b7_33078131", "dangkhoatptp", "b7_33078131_dbmot");
-    mysqli_set_charset($conn, "utf-8");
+    mysqli_set_charset($conn, "UTF8");
 ?>
 
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="vi">
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
