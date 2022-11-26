@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect("sql310.byethost7.com", "b7_33078131", "dangkhoatptp", "b7_33078131_dbmot");
+    $conn = mysqli_connect("localhost", "root", "", "dbmot");
     mysqli_set_charset($conn, "utf8");
 ?>
 

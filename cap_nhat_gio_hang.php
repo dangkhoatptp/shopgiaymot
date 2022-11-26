@@ -2,8 +2,8 @@
     ob_start();
     session_start();
 
-    $conn = mysqli_connect("sql310.byethost7.com", "b7_33078131", "dangkhoatptp", "b7_33078131_dbmot");
-    mysqli_set_charset($conn, "UTF8");
+    $conn = mysqli_connect("localhost", "root", "", "dbmot");
+    mysqli_set_charset($conn, "utf-8");
 
     $id_account = $_GET['idaccount'];
     $id_giay = $_GET['idgiay'];
