@@ -3,7 +3,7 @@
     $_SESSION["login"] = "false";
 
     $conn = mysqli_connect('localhost', 'root', '', 'dbmot');
-    mysqli_set_charset($conn, 'utf8');
+    mysqli_set_charset($conn, 'utf-8');
 ?>
 <!DOCTYPE html>
     <html lang="en">
@@ -13,13 +13,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Đăng nhập | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_dangnhap.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_dangnhap.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -41,7 +41,7 @@
                     <input class="password" type="password" name="password">
                 </div>
                 <button class="button_submit" type="submit" name="login">đăng nhập</button>
-                <a class="link_register" href="../html/taotaikhoan.php">Tạo tài khoản</a>
+                <a class="link_register" href="taotaikhoan.php">Tạo tài khoản</a>
             </form>
             <!-- <div class="error">Mật khẩu hoặc tên đăng nhập không đúng!</div> -->
 

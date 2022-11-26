@@ -13,13 +13,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Shop | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_chung.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/main_shop.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/main_shop.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -39,15 +39,15 @@
                 <div class="header__header-1">
                     <div class="header-1__left-nemu">
                         <ul class="left-menu__menu">
-                            <li class="menu__item"><a href="../html/cauchuyen.php" class="item__text">câu chuyện</a></li>
-                            <li class="menu__item"><a href="../html/shop.php" class="item__text">shop</a></li>
-                            <li class="menu__item"><a href="../html/noiban.php" class="item__text">Một & nơi bán</a></li>
+                            <li class="menu__item"><a href="cauchuyen.php" class="item__text">câu chuyện</a></li>
+                            <li class="menu__item"><a href="shop.php" class="item__text">shop</a></li>
+                            <li class="menu__item"><a href="noiban.php" class="item__text">Một & nơi bán</a></li>
                         </ul>
                     </div>
-                    <a href="../html/trangchu.php" class="header-1__logo"></a>
+                    <a href="trangchu.php" class="header-1__logo"></a>
                     <div class="header-1__right-menu">
                         <ul class="right-menu__menu">
-                            <li class="menu__item"><a href="../html/trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
+                            <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
                             <?php
                                 $countProductInCart = 0;
                                 $href = null;
@@ -93,7 +93,7 @@
                                         $leftIcon = $left * 17 / 100;
                                         $topIcon = $top * 17 / 100;
                                         
-                                        echo "<img class=\"avatar__avatar\" src=\"../avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
+                                        echo "<img class=\"avatar__avatar\" src=\"./avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
                                     }
                                         echo '</div>';
                                         echo '<div class="item__options">';
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                     <!-- <div onclick="clickMenu(4);" class="menu__options">miếng lót</div> -->
-                    <a href="../html/mieng_lot.php" class="menu__options" style="text-decoration: none;">miếng lót</a>
+                    <a href="mieng_lot.php" class="menu__options" style="text-decoration: none;">miếng lót</a>
                 </div>
 
                 <div class="body__contain">
@@ -145,14 +145,14 @@
                     <div class="contain__box show"> 
                         <div class="box__image-product">
                             <span>giày có dây Đen tuyền</span>
-                            <a href="../html/giay_da_co_day_den_tuyen.php?idgiay=65">
+                            <a href="giay_da_co_day_den_tuyen.php?idgiay=65">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
                         <div class="box__image-product">
                             <span>giày có dây Xám nhẹ</span>
-                            <a href="../html/giay_da_co_day_xam_nhe.php?idgiay=66">
+                            <a href="giay_da_co_day_xam_nhe.php?idgiay=66">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
@@ -167,7 +167,7 @@
                         </div>
                         <div class="box__image-product">
                             <span class="name-product">giày vải Nước ngọt</span>
-                            <a class="link-product" href="../html/giay_vai_co_day_nuoc_ngot.php?idgiay=67">
+                            <a class="link-product" href="giay_vai_co_day_nuoc_ngot.php?idgiay=67">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
@@ -182,14 +182,14 @@
                     <div class="contain__box">
                         <div class="box__image-product">
                             <span>giày không dây Đá</span>
-                            <a href="../html/giay_da_khong_day_da.php?idgiay=73">
+                            <a href="giay_da_khong_day_da.php?idgiay=73">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
                         </div>
                         <div class="box__image-product">
                             <span>giày không dây Xám nhẹ</span>
-                            <a href="../html/giay_da_khong_day_xam_nhe.php?idgiay=74">
+                            <a href="giay_da_khong_day_xam_nhe.php?idgiay=74">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
@@ -204,7 +204,7 @@
                         </div>
                         <div class="box__image-product">
                             <span class="name-product">giày vải nước ngọt</span>
-                            <a class="link-product" href="../html/giay_vai_khong_day_nuoc_ngot.php?idgiay=75">
+                            <a class="link-product" href="giay_vai_khong_day_nuoc_ngot.php?idgiay=75">
                                 xem chi tiết
                                 <i class="fa-solid fa-arrow-right-long"></i>
                             </a>
@@ -225,12 +225,12 @@
             <div class="footer">
                 <div class="footer-1">
                     <div class="footer-1__links">
-                        <a href="../html/cauchuyen.php" class="links__link">câu chuyện</a>
-                        <a href="../html/shop.php" class="links__link">shop</a>
+                        <a href="cauchuyen.php" class="links__link">câu chuyện</a>
+                        <a href="shop.php" class="links__link">shop</a>
                     </div>
                     <div class="footer-1__links">
-                        <a href="../html/noiban.php" class="links__link">Một & nơi bán</a>
-                        <a href="../html/trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
+                        <a href="noiban.php" class="links__link">Một & nơi bán</a>
+                        <a href="trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
                     </div>
                     <div class="footer-1__icon">
                         <i class="fa-brands fa-instagram icon"></i>
@@ -244,7 +244,7 @@
             </div>
 
             <!-- Javascript nhà làm -->
-            <script src="../javascript/main_shop.js"></script>
-            <script src="../javascript/chuyengiao.js"></script>
+            <script src="./javascript/main_shop.js"></script>
+            <script src="./javascript/chuyengiao.js"></script>
         </body>
     </html>

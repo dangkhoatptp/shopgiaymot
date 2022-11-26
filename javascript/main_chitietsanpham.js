@@ -46,52 +46,52 @@ function clickButtonLeft() {
 function clickLink(index) {
     switch(index) {
         case 0:
-            window.location = "../html/giay_da_co_day_den_tuyen.php?idgiay=65";
+            window.location = "giay_da_co_day_den_tuyen.php?idgiay=65";
             break;
         case 1:
-            window.location = "../html/giay_da_co_day_xam_nhe.php?idgiay=66";
+            window.location = "giay_da_co_day_xam_nhe.php?idgiay=66";
             break;
         case 2:
-            window.location = "../html/giay_vai_co_day_nuoc_ngot.php?idgiay=67";
+            window.location = "giay_vai_co_day_nuoc_ngot.php?idgiay=67";
             break;
         case 3:
-            window.location = "../html/giay_vai_co_day_qua_do.php?idgiay=68";
+            window.location = "giay_vai_co_day_qua_do.php?idgiay=68";
             break;
         case 4:
-            window.location = "../html/giay_vai_co_day_tim_than.php?idgiay=69";
+            window.location = "giay_vai_co_day_tim_than.php?idgiay=69";
             break;
         case 5:
-            window.location = "../html/giay_vai_co_day_vang_nghe.php?idgiay=70";
+            window.location = "giay_vai_co_day_vang_nghe.php?idgiay=70";
             break;
         case 6:
-            window.location = "../html/giay_vai_co_day_xam_that_su.php?idgiay=71";
+            window.location = "giay_vai_co_day_xam_that_su.php?idgiay=71";
             break;
         case 7:
-            window.location = "../html/giay_vai_co_day_xanh_la_cay.php?idgiay=72";
+            window.location = "giay_vai_co_day_xanh_la_cay.php?idgiay=72";
             break;
         case 8:
-            window.location = "../html/giay_da_khong_day_da.php?idgiay=73";
+            window.location = "giay_da_khong_day_da.php?idgiay=73";
             break;
         case 9:
-            window.location = "../html/giay_da_khong_day_xam_nhe.php?idgiay=74";
+            window.location = "giay_da_khong_day_xam_nhe.php?idgiay=74";
             break;
         case 10:
-            window.location = "../html/giay_vai_khong_day_nuoc_ngot.php?idgiay=75";
+            window.location = "giay_vai_khong_day_nuoc_ngot.php?idgiay=75";
             break;
         case 11:
-            window.location = "../html/giay_vai_khong_day_qua_do.php?idgiay=76";
+            window.location = "giay_vai_khong_day_qua_do.php?idgiay=76";
             break;
         case 12:
-            window.location = "../html/giay_vai_khong_day_tim_than.php?idgiay=77";
+            window.location = "giay_vai_khong_day_tim_than.php?idgiay=77";
             break;
         case 13:
-            window.location = "../html/giay_vai_khong_day_vang_nghe.php?idgiay=78";
+            window.location = "giay_vai_khong_day_vang_nghe.php?idgiay=78";
             break;
         case 14:
-            window.location = "../html/giay_vai_khong_day_xam_that_su.php?idgiay=79";
+            window.location = "giay_vai_khong_day_xam_that_su.php?idgiay=79";
             break;
         case 15:
-            window.location = "../html/giay_vai_khong_day_xanh_la_cay.php?idgiay=80";
+            window.location = "giay_vai_khong_day_xanh_la_cay.php?idgiay=80";
             break;
     }
 }

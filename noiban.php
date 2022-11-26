@@ -13,13 +13,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Một & nơi bán | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_chung.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/main_noiban.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/main_noiban.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -40,15 +40,15 @@
                 <div class="header__header-1">
                     <div class="header-1__left-nemu">
                         <ul class="left-menu__menu">
-                            <li class="menu__item"><a href="../html/cauchuyen.php" class="item__text">câu chuyện</a></li>
-                            <li class="menu__item"><a href="../html/shop.php" class="item__text">shop</a></li>
-                            <li class="menu__item"><a href="../html/noiban.php" class="item__text">Một & nơi bán</a></li>
+                            <li class="menu__item"><a href="cauchuyen.php" class="item__text">câu chuyện</a></li>
+                            <li class="menu__item"><a href="shop.php" class="item__text">shop</a></li>
+                            <li class="menu__item"><a href="noiban.php" class="item__text">Một & nơi bán</a></li>
                         </ul>
                     </div>
-                    <a href="../html/trangchu.php" class="header-1__logo"></a>
+                    <a href="trangchu.php" class="header-1__logo"></a>
                     <div class="header-1__right-menu">
                         <ul class="right-menu__menu">
-                            <li class="menu__item"><a href="../html/trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
+                            <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
                             <?php
                                 $countProductInCart = 0;
                                 $href = null;
@@ -94,7 +94,7 @@
                                         $leftIcon = $left * 17 / 100;
                                         $topIcon = $top * 17 / 100;
                                         
-                                        echo "<img class=\"avatar__avatar\" src=\"../avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
+                                        echo "<img class=\"avatar__avatar\" src=\"./avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
                                     }
                                         echo '</div>';
                                         echo '<div class="item__options">';
@@ -249,12 +249,12 @@
             <div class="footer">
                 <div class="footer-1">
                     <div class="footer-1__links">
-                        <a href="../html/cauchuyen.php" class="links__link">câu chuyện</a>
-                        <a href="../html/shop.php" class="links__link">shop</a>
+                        <a href="cauchuyen.php" class="links__link">câu chuyện</a>
+                        <a href="shop.php" class="links__link">shop</a>
                     </div>
                     <div class="footer-1__links">
-                        <a href="../html/noiban.php" class="links__link">Một & nơi bán</a>
-                        <a href="../html/trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
+                        <a href="noiban.php" class="links__link">Một & nơi bán</a>
+                        <a href="trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
                     </div>
                     <div class="footer-1__icon">
                         <i class="fa-brands fa-instagram icon"></i>
@@ -268,7 +268,7 @@
             </div>
 
             <!-- Javascript nhà làm -->
-            <script src="../javascript/main_noiban.js"></script>
-            <script src="../javascript/chuyengiao.js"></script>
+            <script src="./javascript/main_noiban.js"></script>
+            <script src="./javascript/chuyengiao.js"></script>
         </body>
     </html>

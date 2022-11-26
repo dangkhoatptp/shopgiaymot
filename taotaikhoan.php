@@ -11,13 +11,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Đăng ký tài khoản | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_taotaikhoan.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_taotaikhoan.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -154,6 +154,6 @@
             ?>
 
             <!-- Javascript nhà làm -->
-            <script src="../javascript/main_taotaikhoan.js"></script>
+            <script src="./javascript/main_taotaikhoan.js"></script>
         </body>
     </html>

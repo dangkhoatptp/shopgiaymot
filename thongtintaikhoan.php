@@ -14,13 +14,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Một đôi nguyên ngày | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_chung.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/css_thongtintaikhoan.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/css_thongtintaikhoan.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -40,15 +40,15 @@
                 <div class="header__header-1 fixed">
                     <div class="header-1__left-nemu">
                         <ul class="left-menu__menu">
-                            <li class="menu__item"><a href="../html/cauchuyen.php" class="item__text">câu chuyện</a></li>
-                            <li class="menu__item"><a href="../html/shop.php" class="item__text">shop</a></li>
-                            <li class="menu__item"><a href="../html/noiban.php" class="item__text">Một & nơi bán</a></li>
+                            <li class="menu__item"><a href="cauchuyen.php" class="item__text">câu chuyện</a></li>
+                            <li class="menu__item"><a href="shop.php" class="item__text">shop</a></li>
+                            <li class="menu__item"><a href="noiban.php" class="item__text">Một & nơi bán</a></li>
                         </ul>
                     </div>
-                    <a href="../html/trangchu.php" class="header-1__logo"></a>
+                    <a href="trangchu.php" class="header-1__logo"></a>
                     <div class="header-1__right-menu">
                         <ul class="right-menu__menu">
-                            <li class="menu__item"><a href="../html/trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
+                            <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
                             <?php
                                 $countProductInCart = 0;
                                 $href = null;
@@ -95,7 +95,7 @@
                                         $leftIcon = $left * 17 / 100;
                                         $topIcon = $top * 17 / 100;
                                         
-                                        echo "<img class=\"avatar__avatar\" src=\"../avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
+                                        echo "<img class=\"avatar__avatar\" src=\"./avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
                                     }
                                         echo '</div>';
                                         echo '<div class="item__options">';
@@ -309,7 +309,7 @@
                             }
                         ?>
 
-                        <form class="box__avatar" action="../html/xulidoiavatar.php" method="POST" enctype="multipart/form-data">
+                        <form class="box__avatar" action="xulidoiavatar.php" method="POST" enctype="multipart/form-data">
                             <input type="text" value="0" id="width" name="width" style="display: none;">
                             <input type="text" value="0" id="height" name="height" style="display: none;">
                             <input type="text" value="0" id="left" name="left" style="display: none;">
@@ -324,7 +324,7 @@
                                         $leftInfo = $left * 57 / 100;
                                         $topInfo = $top * 57 / 100;
                                         
-                                        echo "<img src=\"../avatar/$avatar\" style=\"position: absolute; width: $widthInfo"."px; "."height: $heightInfo"."px; "."left: $leftInfo"."px; "."top: $topInfo"."px;\">";
+                                        echo "<img src=\"./avatar/$avatar\" style=\"position: absolute; width: $widthInfo"."px; "."height: $heightInfo"."px; "."left: $leftInfo"."px; "."top: $topInfo"."px;\">";
                                     }
                                 ?>
                             </div>
@@ -365,7 +365,7 @@
             </div>
 
             <!-- Javascript nhà làm -->
-            <script src="../javascript/main_thongtintaikhoan.js"></script>
-            <script src="../javascript/chuyengiao.js"></script>
+            <script src="./javascript/main_thongtintaikhoan.js"></script>
+            <script src="./javascript/chuyengiao.js"></script>
         </body>
     </html>

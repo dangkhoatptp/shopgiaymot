@@ -13,13 +13,13 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Icon và tên cửa sổ -->
-            <link rel="shortcut icon" type="image/png" href="../images/logo-da-cat-nen-den.png"/>
+            <link rel="shortcut icon" type="image/png" href="./images/logo-da-cat-nen-den.png"/>
             <title>Một cặp lót giày | MỘT</title>
 
             <!-- Css nhà làm -->
-            <link rel="stylesheet" href="../css/css_chung.css">
-            <link rel="stylesheet" href="../css/css_mau.css">
-            <link rel="stylesheet" href="../css/main_chitietsanpham.css">
+            <link rel="stylesheet" href="./css/css_chung.css">
+            <link rel="stylesheet" href="./css/css_mau.css">
+            <link rel="stylesheet" href="./css/main_chitietsanpham.css">
 
             <!-- Css icon -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -40,15 +40,15 @@
                 <div class="header__header-1 fixed">
                     <div class="header-1__left-nemu">
                         <ul class="left-menu__menu">
-                            <li class="menu__item"><a href="../html/cauchuyen.php" class="item__text">câu chuyện</a></li>
-                            <li class="menu__item"><a href="../html/shop.php" class="item__text">shop</a></li>
-                            <li class="menu__item"><a href="../html/noiban.php" class="item__text">Một & nơi bán</a></li>
+                            <li class="menu__item"><a href="cauchuyen.php" class="item__text">câu chuyện</a></li>
+                            <li class="menu__item"><a href="shop.php" class="item__text">shop</a></li>
+                            <li class="menu__item"><a href="noiban.php" class="item__text">Một & nơi bán</a></li>
                         </ul>
                     </div>
-                    <a href="../html/trangchu.php" class="header-1__logo"></a>
+                    <a href="trangchu.php" class="header-1__logo"></a>
                     <div class="header-1__right-menu">
                         <ul class="right-menu__menu">
-                            <li class="menu__item"><a href="../html/trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
+                            <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
                             <?php
                                 $countProductInCart = 0;
                                 $href = null;
@@ -94,7 +94,7 @@
                                         $leftIcon = $left * 17 / 100;
                                         $topIcon = $top * 17 / 100;
                                         
-                                        echo "<img class=\"avatar__avatar\" src=\"../avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
+                                        echo "<img class=\"avatar__avatar\" src=\"./avatar/$avatar\" style=\"width: $widthIcon"."px; "."height: $heightIcon"."px; "."left: $leftIcon"."px; "."top: $topIcon"."px;\">";
                                     }
                                         echo '</div>';
                                         echo '<div class="item__options">';
@@ -115,9 +115,9 @@
                         <i onclick="clickButtonLeft();" class="fa-solid fa-arrow-left-long icon"></i>
                     </div>
                     <div class="header-2__slides">
-                        <img src="../images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_top_M.webp" alt="" class="slides__slide show">
-                        <img src="../images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_back_M.webp" alt="" class="slides__slide">
-                        <img src="../images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_profile.webp" alt="" class="slides__slide">
+                        <img src="./images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_top_M.webp" alt="" class="slides__slide show">
+                        <img src="./images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_back_M.webp" alt="" class="slides__slide">
+                        <img src="./images/images_san-pham/mieng_lot/1500x1000_Mot-cap-lot_profile.webp" alt="" class="slides__slide">
                     </div>
                     <div class="header-2__button-right">
                         <i onclick="clickButtonRight();" class="fa-solid fa-arrow-right-long icon"></i>
@@ -139,7 +139,7 @@
                             chỉ Một màu cam duy nhất, đi với màu nào cũng đẹp bất chấp !
                         </p>
     
-                        <img class="product-details__poster" src="../images/images_san-pham/khac/scroll_mieng-lot_1x1_above.webp" alt="" style="width: 594px; height: 594px;">
+                        <img class="product-details__poster" src="./images/images_san-pham/khac/scroll_mieng-lot_1x1_above.webp" alt="" style="width: 594px; height: 594px;">
                     </div>
                     <div class="product-details__option-product">
                         <a href="" class="option-product__how-to-foot-measurement">
@@ -152,21 +152,21 @@
                             <span class="product-other__title">biết đâu bạn thích ?</span>
 
                             <div onclick="clickLink(12);" class="product-other__product">
-                                <img src="../images/images_san-pham/khac/3x2_DT_da-xam-nhat_profile-750x500.webp" alt="" class="product__image">
+                                <img src="./images/images_san-pham/khac/3x2_DT_da-xam-nhat_profile-750x500.webp" alt="" class="product__image">
                                 <span class="product-other__name">
                                     <b>giày da không dây xám nhẹ</b><br>
                                     1,470,000 VND
                                 </span>
                             </div>
                             <div onclick="clickLink(0);" class="product-other__product">
-                                <img src="../images/images_san-pham/khac/3x2_DM_da-den_profile-750x500.webp" alt="" class="product__image">
+                                <img src="./images/images_san-pham/khac/3x2_DM_da-den_profile-750x500.webp" alt="" class="product__image">
                                 <span class="product-other__name">
                                     <b>giày da có dây đen tuyền</b><br>
                                     1,470,000 VND
                                 </span>
                             </div>
                             <div onclick="clickLink(3);" class="product-other__product">
-                                <img src="../images/images_san-pham/khac/3x2_DT_qua-do_profile-750x500.webp" alt="" class="product__image">
+                                <img src="./images/images_san-pham/khac/3x2_DT_qua-do_profile-750x500.webp" alt="" class="product__image">
                                 <span class="product-other__name">
                                     <b>giày vải có dây quá đỏ</b><br>
                                     720,000 VND
@@ -204,12 +204,12 @@
             <div class="footer">
                 <div class="footer-1">
                     <div class="footer-1__links">
-                        <a href="../html/cauchuyen.php" class="links__link">câu chuyện</a>
-                        <a href="../html/shop.php" class="links__link">shop</a>
+                        <a href="cauchuyen.php" class="links__link">câu chuyện</a>
+                        <a href="shop.php" class="links__link">shop</a>
                     </div>
                     <div class="footer-1__links">
-                        <a href="../html/noiban.php" class="links__link">Một & nơi bán</a>
-                        <a href="../html/trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
+                        <a href="noiban.php" class="links__link">Một & nơi bán</a>
+                        <a href="trogiup_mangsizenaovua.php" class="links__link">trợ giúp</a>
                     </div>
                     <div class="footer-1__icon">
                         <i class="fa-brands fa-instagram icon"></i>
@@ -223,7 +223,7 @@
             </div>
 
             <!-- Javascript nhà làm -->
-            <script src="../javascript/main_chitietsanpham.js"></script>
-            <script src="../javascript/chuyengiao.js"></script>
+            <script src="./javascript/main_chitietsanpham.js"></script>
+            <script src="./javascript/chuyengiao.js"></script>
         </body>
     </html>

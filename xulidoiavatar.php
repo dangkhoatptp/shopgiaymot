@@ -13,7 +13,7 @@
     $top = $_POST['top'];
 
     // Chuyển avatar vào thư mục "avatar"
-    move_uploaded_file($_FILES['buttonChangeAvatar']['tmp_name'], '../avatar/'.$_FILES['buttonChangeAvatar']['name']);
+    move_uploaded_file($_FILES['buttonChangeAvatar']['tmp_name'], './avatar/'.$_FILES['buttonChangeAvatar']['name']);
 
     // Đưa tên file hình ảnh lên trên database
     $id_account = $_SESSION['id_account'];
