@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body onload="start();">
-    <script>
-        function start() {
-            window.location.pathname = "/html/index.php";
-        }
-    </script>
+<body>
+    
 </body>
 </html>
