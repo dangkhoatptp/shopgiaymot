@@ -2,7 +2,7 @@
     session_start();
     ob_start();
 
-    $conn = mysqli_connect("localhost", "root", "", "dbmot");
+    $conn = mysqli_connect("sql310.byethost7.com", "b7_33078131", "dangkhoatptp", "b7_33078131_dbmot");
     mysqli_set_charset($conn, "utf-8");
 ?>
 
