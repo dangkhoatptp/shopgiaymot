@@ -106,19 +106,6 @@
                                     echo '</li>';
                                 }
                             ?>
-                            
-                            <!-- <li class="menu__item" style="display: block;"><span onclick="login('trangchu')" class="item__text">đăng nhập</span></li> -->
-                            <!-- <li class="menu__item" style="border-bottom: none;">
-                                <div class="item__avatar">
-                                    <i class="fa-solid fa-user icon"></i>
-                                </div>
-                                <div class="item__options">
-                                    <ul>
-                                        <li>thông tin tài khoản</li>
-                                        <li onclick="logout('trangchu');">đăng xuất</li>
-                                    </ul>
-                                </div>
-                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -132,21 +119,6 @@
 
             -->
             <div class="body">
-
-                <!-- GIAO DIỆN CHỈNH SỬA AVATAR -->
-                <!-- <div class="body__background body__background-display-none">
-                    <div class="background__box">
-                        <div id="box__show-avatar">
-                            <img src="" alt="" id="show-avatar__avatar">
-                        </div>
-                        <input type="range" id="box__range" min="0" max="100" value="0">
-                        <div class="box__buttons">
-                            <button onclick="clickButtonCancelChangeAvatar();" class="buttons__button-cancel" name="buttonCancelChangeAvatar">Hủy</button>
-                            <button class="buttons__button-submit" name="buttonSubmitChangeAvatar">Hoàn tất</button>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- GIAO DIỆN THÔNG TIN TÀI KHOẢN -->
                 <div class="body__narbar">
                     <ul class="narbar__list">
                         <li onclick="nextPage('thongtintaikhoan');" class="list__item">thông tin</li>
@@ -186,8 +158,5 @@
             <!-- Javascript nhà làm -->
             <script src="../javascript/main_thongtintaikhoan.js"></script>
             <script src="../javascript/chuyengiao.js"></script>
-
-            <!-- Javascript có sẵn -->
-            <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
         </body>
     </html>

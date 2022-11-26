@@ -107,19 +107,6 @@
                                     echo '</li>';
                                 }
                             ?>
-                            
-                            <!-- <li class="menu__item" style="display: block;"><span onclick="login('trangchu')" class="item__text">đăng nhập</span></li> -->
-                            <!-- <li class="menu__item" style="border-bottom: none;">
-                                <div class="item__avatar">
-                                    <i class="fa-solid fa-user icon"></i>
-                                </div>
-                                <div class="item__options">
-                                    <ul>
-                                        <li>thông tin tài khoản</li>
-                                        <li onclick="logout('trangchu');">đăng xuất</li>
-                                    </ul>
-                                </div>
-                            </li> -->
                         </ul>
                     </div>
                 </div>

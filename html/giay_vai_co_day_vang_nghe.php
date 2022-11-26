@@ -142,10 +142,6 @@
                             bạn có biết <b>“nghệ”</b> – 藝 có nghĩa Hán Việt là “tài năng”? nhưng sau nhiều trăm năm, hiện nay “nghệ” đã phái sinh ra nhiều nét nghĩa mới, trong đó có Một nét nghĩa là “làm điều mình giỏi, giỏi điều mình làm.”<br>
                             Một đôi giày màu vàng nghệ tán dương Một thái độ sống bình tĩnh để dần tìm ra điều mình giỏi, giỏi điều mình làm.
                         </p>
-                        <!-- <p>
-                            Một sử dụng da bò thật 100% cho các sản phẩm giày da: đằm thắm và bền bỉ theo thời gian - bạt thiệp đi làm, bảnh tỏn đi chơi<br>
-                            Một đôi giày da thật cho mọi người, ở bất cứ đâu, tại thời điểm nào, để đẹp mà không lố !
-                        </p> -->
                         <p>____</p>
                         <p>
                             giày vải Đời-mới <b>có dây</b> được làm bằng vải bố 100% cô-tông, đế cao su đúc nguyên khối, nâng đỡ tuyệt đối cho đôi bàn chân luôn êm trong mọi hoạt động hàng ngày.
@@ -198,17 +194,6 @@
                                         }
                                     }
                                 ?>
-                                <!-- <div class="list-size__size">35</div>
-                                <div class="list-size__size">36</div>
-                                <div class="list-size__size">37</div>
-                                <div class="list-size__size">38</div>
-                                <div class="list-size__size">39</div>
-                                <div class="list-size__size">40</div>
-                                <div class="list-size__size">41</div>
-                                <div class="list-size__size">42</div>
-                                <div class="list-size__size">43</div>
-                                <div class="list-size__size">44</div>
-                                <div class="list-size__size">45</div> -->
                             </div>
                         </div>
                         <a href="../html/trogiup_mangsizenaovua.php" class="option-product__how-to-foot-measurement">

@@ -57,11 +57,6 @@
                 <button class="button_register" type="submit" name="buttonregister">đăng ký</button>
             </form>
 
-            <!-- <div class="error">
-                Xác nhận mật khẩu không chính xác!
-                <i  class="fa-solid fa-x icon"></i>
-            </div> -->
-
             <?php
                 if(isset($_POST["buttonregister"])) {
                     $fullname = $_POST["fullname"];

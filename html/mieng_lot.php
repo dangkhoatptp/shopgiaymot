@@ -138,36 +138,10 @@
                             bên ngoài tiều tụy, bên trong phơi phới – Một cặp lót giày cho đôi chân đi đâu cũng êm<br>
                             chỉ Một màu cam duy nhất, đi với màu nào cũng đẹp bất chấp !
                         </p>
-                        <!-- <p>
-                            Hiểu bạn, Một làm <b>vớ Tất-cả</b>, để bạn không chỉ êm ái đôi chân (vì làm từ sợi tre bền thoáng kháng khuẩn) mà còn luôn sẵn sàng để được Tất-cả trong Đời : <b>mang Tất-cả để được tất cả !</b>
-                        </p> -->
-                        <!-- <p>____</p> -->
-                        <!-- <p>
-                            Vớ có thiết kế túi để đựng tất cả : các loại thẻ, tiền mặt, chìa khoá, kẹo cao su cho thơm miệng, sẽ luôn bên bạn, sẵn sàng khi bạn cần (mà lại vô cùng kín đáo). Hai màu hồng thắm, xanh tươi – màu nào cũng đẹp bất chấp !
-                        </p> -->
     
-                        <!-- <iframe width="660px" height="420px" src="https://youtube.com/embed/QfKoU2NtBTc?controls=1" poster="" frameborder="0"></iframe> -->
                         <img class="product-details__poster" src="../images/images_san-pham/khac/scroll_mieng-lot_1x1_above.webp" alt="" style="width: 594px; height: 594px;">
                     </div>
                     <div class="product-details__option-product">
-                        <!-- <div class="option-product__colors">
-                            <span class="colors__name-color"><b>hồng thắm</b></span>
-                            <div class="colors__list-color">
-                                <div onclick="clickLink(20);" onclick="" class="colors__color-outside checked">
-                                    <div class="color-outside__color" style="background-color: var(--mau-hong-tham);"></div>
-                                </div>
-                                <div onclick="clickLink(21);" onclick="" class="colors__color-outside">
-                                    <div class="color-outside__color" style="background-color: var(--mau-xanh-tuoi);"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="option-product__sizes">
-                            <span>Sock Size: No selection</span>
-                            <div class="sizes__list-size">
-                                <div class="list-size__size-sock">Size nam (42 - 45)</div>
-                                <div class="list-size__size-sock">Size nữ (35 - 41)</div>
-                            </div>
-                        </div> -->
                         <a href="" class="option-product__how-to-foot-measurement">
                             <i class="fa-solid fa-ruler icon"></i>
                             đo chân làm sao ?
