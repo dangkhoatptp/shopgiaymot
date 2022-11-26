@@ -1,0 +1,21 @@
+- Da có dây:
+    + Đen tuyền: 0
+    + Xám nhẹ: 1
+- Vải có dây:
+    + Nước ngọt: 2
+    + Quá đỏ: 3
+    + Tím than: 4
+    + Vàng nghệ: 6
+    + Xám nhẹ: 7
+    + Xám thật sự: 8
+    + Xanh lá cây: 9
+- Da không dây:
+    + Đá: 11
+    + Xám nhẹ: 12
+- Vải không dây:
+    + Nước ngọt: 13
+    + Quá đỏ: 14
+    + Tím than: 15
+    + Vàng nghệ: 16
+    + Xám thật sự: 17
+    + Xanh lá cây: 18
