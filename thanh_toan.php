@@ -191,16 +191,23 @@
                         </tr>
                     </table>
                     <div class="container__payment-methods">
-                            <div class="payment-methods__item">
-                                <input class="item__input" type="radio" name="method" checked>
-                                <label class="item__label" for="">thanh toán khi nhận hàng</label>
+                        <a href="giaodienthanhtoanthanhcong.php" class="momo-QRcode__group">Thanh toán sau khi nhận hàng</a>
+                        <form class="payment-methods__momo-QRcode" method="POST" target="_blank" enctype="application/x-www-form-urlencoded" action="xulithanhtoanmomo.php?tong=<?php echo $tong; ?>">
+                            <div onclick="clickMomo();" class="momo-QRcode__group">
+                                <img src="./images/logo-momo.jfif" alt="" height="50px">
+                                Thanh toán MOMO QRcode
                             </div>
-                            <div class="payment-methods__item">
-                                <input type="radio" name="method">
-                                <label class="item__label" for="">chuyển khoản ngân hàng</label>
+                            <input id="inputMomo" type="submit" name="momo" style="display: none;">
+                        </form>
+
+                        <form class="payment-methods__vnpay" method="POST" action="xulithanhtoanvnpay.php?tong=<?php echo $tong; ?>">
+                            <div onclick="clickvnpay();" class="vnpay__group">
+                                <img src="./images/icon_vnpay.png" alt="" height="50px">
+                                Thanh toán bằng VNPAY
                             </div>
+                            <input type="submit" name="redirect" id="redirect" style="display: none;">
+                        </form>
                     </div>
-                    <div class="container__button-order">ĐẶT HÀNG</div>
                 </div>
             </div>
             <!-- 
@@ -232,5 +239,17 @@
             <!-- Javascript nhà làm -->
             <script src="./javascript/main_thanhtoan.js"></script>
             <script src="./javascript/chuyengiao.js"></script>
+
+            <script>
+                function clickMomo() {
+                    document.getElementById('inputMomo').click();
+                }
+                function clickvnpay() {
+                    document.getElementById('redirect').click();
+                }
+                function click() {
+                    window.location = "giaodienthanhtoanthanhcong.php";
+                }
+            </script>
         </body>
     </html>

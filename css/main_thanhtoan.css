@@ -93,13 +93,47 @@ tr > td {
     }
 }
 
+/* PHƯƠNG THỨC THANH TOÁN - START */
+
 .container__payment-methods {
     border: 1px solid var(--mau-hover);
     margin-top: 10px;
     padding: 30px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.payment-methods__item {
+.momo-QRcode__group,
+.vnpay__group {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    user-select: none;
     margin: 5px 0;
 }
+.momo-QRcode__group {
+    border: 2px solid #ae2070;
+    color: #ae2070;
+}
+.vnpay__group {
+    border: 2px solid #004a9c;
+    color: #004a9c;
+}
+
+.momo-QRcode__group:hover,
+.vnpay__group:hover {
+    cursor: pointer;
+}
+
+.momo-QRcode__group img,
+.vnpay__group img {
+    margin: 5px 10px 5px 5px;
+}
+
+/* PHƯƠNG THỨC THANH TOÁN - END */

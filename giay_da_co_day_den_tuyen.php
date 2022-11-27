@@ -1,10 +1,10 @@
-<?php
+<!-- <?php
     session_start();
     ob_start();
 
     $conn = mysqli_connect("localhost", "root", "", "dbmot");
     mysqli_set_charset($conn, "utf-8");
-?>
+?> -->
 <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -28,6 +28,58 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+            <!-- <style>
+                .product-details__buttons-share {
+                    display: flex;
+                    align-items: center;
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+
+                .button-share {
+                    text-decoration: none;
+                    display: flex;
+                    /* padding: 10px 10px; */
+                    color: white;
+                    font-weight: 600;
+                    padding-right: 10px;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    margin: 10px 5px;
+                    box-shadow: 1px 1px 3px 1px rgb(30, 28, 28);
+                    position: relative;
+                }
+
+                .button-share .icon {
+                    display: block;
+                    padding: 5px 15px;
+                    margin: 0 5px 0 0;
+                    border-radius: 30px;
+                    color: var(--mau-xam-that-su);
+                }
+
+                .facebook {
+                    background-color: #3b5998;
+                }
+                .facebook .icon {
+                    background-color: #2c4271;
+                }
+
+                .twitter {
+                    background-color: #55acee;
+                }
+                .twitter .icon {
+                    background-color: #488dc1;
+                }
+
+                .linkedin {
+                    background-color: #0077b5;
+                }
+                .linkedin .icon {
+                    background-color: #026194;
+                }
+            </style> -->
         </head>
 
         <body>
@@ -48,7 +100,7 @@
                     <a href="trangchu.php" class="header-1__logo"></a>
                     <div class="header-1__right-menu">
                         <ul class="right-menu__menu">
-                            <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
+                            <!-- <li class="menu__item"><a href="trogiup_mangsizenaovua.php" class="item__text">trợ giúp</a></li>
                             <?php
                                 $countProductInCart = 0;
                                 $href = null;
@@ -105,7 +157,7 @@
                                         echo '</div>';
                                     echo '</li>';
                                 }
-                            ?>
+                            ?> -->
                         </ul>
                     </div>
                 </div>
@@ -148,6 +200,15 @@
                             giày da <b>có dây</b> được làm bằng da bò thật 100%<br>
                             đế cao su đúc nguyên khối, nâng đỡ tuyệt đối cho đôi bàn chân luôn êm trong mọi hoạt động hàng ngày
                         </p>
+
+                        <!-- NÚT CHIA SẺ - START -->
+                        <div class="product-details__buttons-share">
+                            Chia sẻ đến: 
+                            <a href="http://www.facebook.com/sharer/sharer.php?u=shopgiaymot.byethost7.com/giay_da_co_day_den_tuyen.php?idgiay=65" class="button-share share facebook"><i class="fa-brands fa-facebook-f icon"></i> Share</a>
+                            <a href="https://twitter.com/intent/tweet?url=shopgiaymot.byethost7.com/giay_da_co_day_den_tuyen.php?idgiay=65" class="button-share share twitter"><i class="fa-brands fa-twitter icon"></i> Tweet</a>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&url=shopgiaymot.byethost7.com/giay_da_co_day_den_tuyen.php?idgiay=65" class="button-share share linkedin"><i class="fa-brands fa-linkedin-in icon"></i> LinkedIn</a>
+                        </div>
+                        <!-- NUT CHIA SẺ - START -->
     
                         <iframe width="660px" height="420px" src="https://youtube.com/embed/QfKoU2NtBTc?controls=1" poster="" frameborder="0"></iframe>
                     </div>
@@ -165,7 +226,7 @@
                         </div>
                         <div class="option-product__sizes">
                             <div class="sizes__list-size">
-                                <?php
+                                <!-- <?php
                                     $id_giay = null;
                                     if(isset($_GET['idgiay'])) {
                                         $id_giay = $_GET['idgiay'];
@@ -183,14 +244,14 @@
                                             }
                                         }
                                     }
-                                ?>
+                                ?> -->
                             </div>
                         </div>
                         <a href="trogiup_mangsizenaovua.php" class="option-product__how-to-foot-measurement">
                             <i class="fa-solid fa-ruler icon"></i>
                             đo chân làm sao ?
                         </a>
-                        <div onclick="clickButtonAddCart(<?php echo $id_giay; ?>, 'giay_da_co_day_den_tuyen');" class="option-product__button-add-cart inactive">thêm vào giỏ hàng</div>
+                        <!-- <div onclick="clickButtonAddCart(<?php echo $id_giay; ?>, 'giay_da_co_day_den_tuyen');" class="option-product__button-add-cart inactive">thêm vào giỏ hàng</div> -->
 
                         <div class="option-product__product-other">
                             <span class="product-other__title">biết đâu bạn thích ?</span>
