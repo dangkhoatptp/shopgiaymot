@@ -1,11 +1,4 @@
-<?php
-    session_start();
-    ob_start();
-
-    $conn = mysqli_connect("localhost", "root", "", "dbmot");
-    mysqli_set_charset($conn, "utf-8");
-?>
-
+<?php include("SQLConnect.php"); ?>
 <!DOCTYPE html>
     <html lang="en">
         <head>

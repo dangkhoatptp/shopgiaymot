@@ -1,10 +1,5 @@
 <?php
-    ob_start();
-    session_start();
-
-    $conn = mysqli_connect("localhost", "root", "", "dbmot");
-    mysqli_set_charset($conn, "utf-8");
-
+    include("SQLConnect.php");
     if($_SESSION['login'] == "false") {
         header("location:dangnhap.php?linkpage=shop");
     } else if($_SESSION['login'] == "true") {

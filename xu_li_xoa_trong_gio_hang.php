@@ -1,10 +1,5 @@
 <?php
-    ob_start();
-    session_start();
-
-    $conn = mysqli_connect("localhost", "root", "", "dbmot");
-    mysqli_set_charset($conn, "utf-8");
-
+    include("SQLConnect.php");
     $idAccount = $_GET['idaccount'];
     $idGiay = $_GET['idgiay'];
     $idSize = $_GET['idsize'];
